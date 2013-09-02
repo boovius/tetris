@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style type="text/css">
+		body {background: #000;}
+		#preDropBox {margin: 0 auto; width: 500px; height: 50px; background-color: white;}
+		#container {margin: 0px auto; width: 500px; height: 500px; background: #bbb; position: relative;}
+		.box {width: 25px; height: 25px; outline: solid 1px black; position: absolute;}
+
+		.fallingBlock {	
+			background: #333;
+		}
+		.block {
+			top: -25px;
+			left: 200px;
+			position: absolute;
+		}
+
+		.hitBlock {
+			background: green;
+		}
+
+		.line {background: blue; }
+
+		.colLine { 
+			height: 500px; width: 1px; position: absolute; left: 0;
+		}
+
+		.rowLine { 
+			width: 500px; height: 1px; position: absolute; bottom: 0;
+		}
+
+	</style>
+
+
+
+</head>
+
+<body>
+	<div id='preDropBox'></div>
+	<div id='container'>
+
+		<!-- grid layout --> 
+
+		<!-- columns -->
+		<div class="line colLine"></div>
+		<div class="line colLine" style="margin-left: 25px"></div>  <!-- column  -->
+		<div class="line colLine" style="margin-left: 50px"></div>  <!-- column  -->
+		<div class="line colLine" style="margin-left: 75px"></div>  <!-- column  -->
+		<div class="line colLine" style="margin-left: 100px"></div> <!-- column  -->
+		<div class="line colLine" style="margin-left: 125px"></div> <!-- column  -->
+		<div class="line colLine" style="margin-left: 150px"></div> <!-- column  -->
+		<div class="line colLine" style="margin-left: 175px"></div> <!-- column  -->
+		<div class="line colLine" style="margin-left: 200px"></div> <!-- column  -->
+		<div class="line colLine" style="margin-left: 225px"></div> <!-- column  -->
+		<div class="line colLine" style="margin-left: 250px"></div> <!-- column  -->
+		<div class="line colLine" style="margin-left: 275px"></div> <!-- column  -->
+		<div class="line colLine" style="margin-left: 300px"></div> <!-- column  -->
+		<div class="line colLine" style="margin-left: 325px"></div> <!-- column  -->
+		<div class="line colLine" style="margin-left: 350px"></div> <!-- column  -->
+		<div class="line colLine" style="margin-left: 375px"></div> <!-- column  -->
+		<div class="line colLine" style="margin-left: 400px"></div> <!-- column  -->
+		<div class="line colLine" style="margin-left: 425px"></div> <!-- column  -->
+		<div class="line colLine" style="margin-left: 450px"></div> <!-- column  -->
+		<div class="line colLine" style="margin-left: 475px"></div> <!-- column  -->
+
+			<!-- rows -->
+		
+		<div class="line rowLine"></div>
+		<div class="line rowLine" style="margin-bottom: 25px"></div>  <!-- row  -->
+		<div class="line rowLine" style="margin-bottom: 50px"></div>  <!-- row  -->
+		<div class="line rowLine" style="margin-bottom: 75px"></div>  <!-- row  -->
+		<div class="line rowLine" style="margin-bottom: 100px"></div> <!-- row  -->
+		<div class="line rowLine" style="margin-bottom: 125px"></div> <!-- row  -->
+		<div class="line rowLine" style="margin-bottom: 150px"></div> <!-- row  -->
+		<div class="line rowLine" style="margin-bottom: 175px"></div> <!-- row  -->
+		<div class="line rowLine" style="margin-bottom: 200px"></div> <!-- row  -->
+		<div class="line rowLine" style="margin-bottom: 225px"></div> <!-- row  -->
+		<div class="line rowLine" style="margin-bottom: 250px"></div> <!-- row  -->
+		<div class="line rowLine" style="margin-bottom: 275px"></div> <!-- row  -->
+		<div class="line rowLine" style="margin-bottom: 300px"></div> <!-- row  -->
+		<div class="line rowLine" style="margin-bottom: 325px"></div> <!-- row  -->
+		<div class="line rowLine" style="margin-bottom: 350px"></div> <!-- row  -->
+		<div class="line rowLine" style="margin-bottom: 375px"></div> <!-- row  -->
+		<div class="line rowLine" style="margin-bottom: 400px"></div> <!-- row  -->
+		<div class="line rowLine" style="margin-bottom: 425px"></div> <!-- row  -->
+		<div class="line rowLine" style="margin-bottom: 450px"></div> <!-- row  -->
+		<div class="line rowLine" style="margin-bottom: 475px"></div> <!-- row  -->
+		
+
+
+
+	</div>
+
+	<!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script> -->
+	<script type="text/javascript" src='jquery191.js'></script>
+	<script type="text/javascript" src='gameboard.js'></script>
+	<script type="text/javascript" src='shapes.js'></script>
+	<script type="text/javascript" src='movement.js'></script> 
+	
+</body>
+
+
+</html>
